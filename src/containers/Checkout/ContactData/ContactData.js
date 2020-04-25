@@ -180,6 +180,8 @@ class ContactData extends Component {
       });
     }
 
+    console.log(formElementsArray);
+
     let form = (
       <form onSubmit={this.orderhandler}>
         {formElementsArray.map((formElement) => {
